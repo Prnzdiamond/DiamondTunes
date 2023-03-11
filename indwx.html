@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<!-- <body>
+    <div class="music-bx">
+  <div class="something">
+    <div class="music-img">
+        <img id="music-img" src="" alt="albumpicture">
+    </div>
+  </div>
+    <div class="seek-pan"><span id="start-time">0:00</span><div class="seeker">
+        <input value="0" min="0" max="100" type="range" name="seeker" id="seekBar" class="seekBar" step="any">
+        
+    </div><span id="end-time">0:00</span></div>
+   <div class="control">
+    <button class="play" id="playMusic">Play</button>
+    <button class="pause" id="pauseMusic">pause</button>
+    <button id="next" class="next">Next</button>
+    <button id="prev" class="prev">Previous</button>
+   </div>
+  </div>
+</body> -->
+
+<body>
+    <section class="container">
+        <div class="container">
+            <div class="music-content">
+                <div class="top-nav">
+                    <i class='bx bx-menu'></i>
+                    <h4>Now Playing</h4>
+                    <i class='bx bxs-heart'></i>
+                </div>
+                <div class="disc-bx">
+                    <div class="disc">
+
+                    </div>
+                </div>
+                <h3 class="song-title">
+                    Song Title
+                </h3>
+                <h4 class="artist-name">
+                    Artist
+                </h4>
+                <div class="timer-bx">
+                    <span id="start-time">0:00</span>
+                    <span id="end-time">0:00</span>
+                </div>
+                <div class="seekBar-bx">
+                    <input value="0" min="0" max="100" step="1" type="range" id="seekBar">
+                </div>
+                <div id="playstyle">
+                    <div id="loop1" class='bx bx-refresh'></div>
+                    <div id="loopall" class='bx bx-refresh'></div>
+                    <div id="loopnone" class='bx bx-refresh'></div>
+                    <div id="shuffle" class='bx bx-shuffle'></div>
+                </div>
+                <div class="controls">
+                    <button id="playSlow"><i class='bx bx-fast-forward'></i></button>
+                    <button id="prev"><i class='bx bx-skip-previous'></i></button>
+                    <button id="pauseNdplay" class='bx bx-play'></button>
+                    <button id="next"><i class='bx bx-skip-next'></i></button>
+                    <button id="playFast"><i class='bx bx-fast-forward'></i></button>
+                </div>
+                <audio preload="metadata" src="" id="nowPlaying">some music</audio>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
